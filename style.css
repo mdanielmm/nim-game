@@ -1,0 +1,260 @@
+ body {
+     background-color: #132F30;
+ }
+ 
+ .header{
+     margin: auto;
+     text-align: center;
+     padding-top: 30px;
+     position: relative
+ }
+
+/* NAV BAR */
+ #navbar {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #0C1D1D;
+    opacity:0.4;
+ }
+
+ li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    font-family: sans-serif;
+    font-size: 14px;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover:not(.active) {
+    background-color: seagreen;
+}
+
+
+
+
+/* LOGIN */
+ 
+ #login{
+     text-align: center;
+     width: 20%;
+     height: 33%;
+     margin: auto;
+     padding-top: 115px;
+     /*border: 3px solid green;*/
+ }
+ 
+ #login input[type=text], input[type=password]{
+     background-color: whitesmoke;
+     border-radius: 0.25rem;
+     border: none;
+     margin-bottom: 2px;
+     width: 100%;
+     height: 40px;
+     text-indent: 10px;
+ }
+ 
+ #login input[type=submit]{
+     background-color: #0F675B;
+     border: none;
+     border-radius: 0.30rem;
+     width: 100%;
+     height: 32px;
+     font-weight: 700;
+     text-align: center;
+ }
+ 
+ #login input[type=text]{
+     font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+ 
+/* SETTINGS */
+
+ #settings{
+    text-align: center;
+     width: 100%;
+     display:none;
+ }
+.main_wrapper{
+    width: 50%;
+    display: block;
+    float: left;
+    padding-top: 107px;
+}
+ #four, #five, #six{
+     background-color: #0F675B;
+     border: none;
+     width: 20%;
+     height: 38px;
+     font-weight: 700;
+     text-align: center;
+ }
+
+ #imggrid {
+     position: relative;
+     vertical-align: middle;
+     padding-right: 10px;
+ 
+ }
+
+ .selectoponent{
+     position: relative;
+
+ }
+.selectsize{
+    padding-bottom: 0px;
+}
+ #imggamepad{
+     position: relative;
+     vertical-align: middle;
+     padding-bottom: 13px;
+ }
+
+ #human, #computer{
+     background-color: #0F675B;
+     border: none;
+     width: 20%;
+     height: 39px;
+     font-weight: 700;
+     text-align: center;
+     vertical-align: middle;
+ }
+
+ .firstplayer{
+    position: relative;
+    padding-bottom: 15px;
+}
+
+ #firsthuman, #firstcomputer{
+    background-color: #0F675B;
+    border: none;
+    width: 20%;
+    height: 39px;
+    font-weight: 700;
+    text-align: center;
+ }
+ 
+ .selectdificult{
+     position: relative;
+     
+ }
+ 
+ #easy{
+     background-color: #69BF6D;
+     border: none;
+     width: 23%;
+     height: 40px;
+     font-weight: 700;
+     text-align: center;
+ }
+ 
+ #medium{
+     background-color: #ff7e30;
+     border: none;
+     width: 23%;
+     height: 40px;
+     font-weight: 700;
+     text-align: center;
+ }
+ 
+ #hard{
+     background-color: #F24D29;
+     border: none;
+     width: 23%;
+     height: 40px;
+     font-weight: 700;
+     text-align: center;
+ }
+
+ .rungame{
+     position: relative;
+     padding-top: 4px;
+ }
+
+
+ .dot {
+     border-radius: 50%;
+     background-color: #FCD16B;
+     width: 55px;
+     height: 55px;
+     cursor: pointer;
+ }
+#nim_txt, #howtoplay_txt{
+    position: absolute;
+    bottom:0;
+    left:75px;
+    display: none;
+}
+ 
+#ranking_info{
+    position: absolute;
+    bottom:49px;
+    left:248px;
+    display: none;
+}
+
+
+#ranking_info table, #ranking_infoth, #ranking_info td {
+    border: 2px solid white;
+    border-collapse: collapse;
+}
+
+#ranking_info th, #ranking_info td {
+    padding: 5px;
+    text-align: left;
+    color : white;
+}
+
+
+.board {
+    background-color: none;
+    float:right;
+    padding-top: 91px;
+    padding-right: 209px;
+    border: 0px;
+    
+}
+ 
+ .table {
+     
+ }
+ 
+#quit{
+    background-color: #9A872D;
+    border: none;
+    width: 52%;
+    height: 31px;
+    font-weight: 700;
+    text-align: center;
+    margin-top: 6px;
+    margin-left: 10px;
+}
+ 
+
+ 
+
+ 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+
+ 
+ 
+ 
+
+
+

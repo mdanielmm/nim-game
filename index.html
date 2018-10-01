@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+   <head>
+      <meta charset="utf-8">
+      <link href="style.css" type ="text/css" rel="stylesheet">
+      <title>NIM Game</title>
+   </head>
+   <body>
+      <ul id ="navbar">
+         <li><a class="active" href="#home">Home</a></li>
+         <li><a onclick="shownimtxt();" href="#nim">NIM</a></li>
+         <li><a onclick="showhowtoplaytxt();" href="#howtoplay">How to play</a></li>
+         <li><a onclick="showranking(); " href="#ranking">Ranking</a></li>
+         <li><a href="#about">About</a></li>
+      </ul>
+      <div class="header">
+         <img id ="imgbanner" src="https://i.imgur.com/XVVmLSp.png" alt= "Logo">
+         <div id="nim_txt">
+            <img onclick="closeimage();" src="https://i.imgur.com/C9Pz1YS.png" alt= "NIM info">
+         </div>
+         <div id="howtoplay_txt">
+            <img onclick="closeimage();" src="https://i.imgur.com/8VSU1Jk.png" alt= "How to Play">
+         </div>
+         <div id="ranking_info" >
+            <table onclick="closeimage();">
+               <tr>
+                  <th>Name</th>
+                  <th>Score</th>
+               </tr>
+               <tr>
+                  <td>Player 1</td>
+                  <td id="player1score">76</td>
+               </tr>
+               <tr>
+                  <td>Computer</td>
+                  <td id="computerscore">45</td>
+               </tr>
+            </table>
+         </div>
+      </div>
+      <div id="login">
+         <img id ="imglogin" src="https://i.imgur.com/PJoUtjf.png" alt= "Login icon">
+         <input type="text" name="username" placeholder="Username" id="user"/>
+         <br>
+         <input type="password" name="password" placeholder="Password" id="password"/>
+         <br>
+         <input onClick="showSettings()" type="submit" value="SIGN IN" id="loginbutton">
+      </div>
+      <div class="main_wrapper">
+         <div id="settings">
+            <div class="selectsize">
+               <img id ="imggrid" src="https://i.imgur.com/WEdxEQZ.png" alt= "Grid icon">
+               <input type="button" value="4x4" id="four">
+               <input type="button" value="5x5" id="five">
+               <input type="button" value="6x6" id="six">
+            </div>
+            <div class="selectoponent">
+               <img id ="imggamepad" src="https://i.imgur.com/aLPoH79.png" alt= "Gamepad icon">
+               <input type="button" value="Human" id="human">
+               <input type="button" value="Computer" id="computer">
+            </div>
+            <div class="firstplayer">
+               <img id ="imgfp" src="https://i.imgur.com/9U05De8.png" alt= "First Player icon">
+               <input type="button" value="Me" id="firsthuman">
+               <input type="button" value="Opponent" id="firstcomputer">
+            </div>
+            <div class="selectdificult">
+               <input type="button" value="Easy" id="easy">
+               <input type="button" value="Medium" id="medium">
+               <input type="button" value="Hard" id="hard">
+            </div>
+            <div class="rungame">
+               <img id ="imgrungame" src="https://i.imgur.com/qYxz9fG.png" alt= "Run Game icon">
+            </div>
+         </div>
+      </div>
+      <script src="main.js"></script>    
+   </body>
+</html>
